@@ -1,9 +1,16 @@
 body, html{
     height: 100%;
     margin: 0;
+<<<<<<< HEAD
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+>>>>>>> about-us
 }
-
+/*
+CSS de Hero
+*/
 .hero-title{
     font-size: 85px;
     font-weight: bold;
@@ -31,4 +38,61 @@ body, html{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+/*
+CSS Container Flex
+*/
+.container-about{
+    display: flex;
+    border: 1px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+/*
+CSS Divided section by 2 colums
+*/
+.box-1-about{
+    border: 1px;
+    padding: 10px;
+    margin: 10px;
+    order: 2;
+}
+
+.box-2-about{
+    border: 1px;
+    padding: 5px;
+    margin: 5px;
+    order:1;
+    background-color: gray;
+}
+/*
+CSS for images
+*/
+.fill-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+/*CSS for texts*/
+.title{
+    text-align: center;
+    color: white;
+    font-style: verdana;
+
+}
+.paragraph{
+    text-align: justify;
+    color: white;
+
 }
