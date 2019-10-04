@@ -62,18 +62,23 @@ CSS Divided section by 2 colums
 /*
 CSS for images
 */
-.profile-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    height: 100%;
-    width: 70%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.fill-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
 }
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
 /*CSS for texts*/
 .title{
     text-align: center;
     color: white;
+    font-style: verdana;
 
 }
 .paragraph{
