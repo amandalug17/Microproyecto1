@@ -43,6 +43,17 @@ CSS Container Flex
     background-color: black;
 }
 /*
+CSS Containers
+*/
+.container-chart{
+    border: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10%;
+    height: 300px; 
+    width: 100%
+}
+/*
 CSS Divided section by 2 colums
 */
 .box-1-about{
@@ -78,11 +89,12 @@ CSS for images
 .title{
     text-align: center;
     color: white;
-    font-style: verdana;
+    font:  verdana, arial;
 
 }
 .paragraph{
     text-align: justify;
     color: white;
+    font:  verdana, arial;
 
 }
