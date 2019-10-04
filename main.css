@@ -2,8 +2,11 @@ body, html{
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
-
+/*
+CSS de Hero
+*/
 .hero-title{
     font-size: 50px;
  
@@ -25,4 +28,56 @@ body, html{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+/*
+CSS Container Flex
+*/
+.container-about{
+    display: flex;
+    border: 1px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+/*
+CSS Divided section by 2 colums
+*/
+.box-1-about{
+    border: 1px;
+    padding: 10px;
+    margin: 10px;
+    order: 2;
+}
+
+.box-2-about{
+    border: 1px;
+    padding: 5px;
+    margin: 5px;
+    order:1;
+    background-color: gray;
+}
+/*
+CSS for images
+*/
+.profile-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 100%;
+    width: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*CSS for texts*/
+.title{
+    text-align: center;
+    color: white;
+
+}
+.paragraph{
+    text-align: justify;
+    color: white;
+
 }
