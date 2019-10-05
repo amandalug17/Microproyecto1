@@ -91,8 +91,8 @@ CSS for images
 }
 .fill img {
     flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
+    min-width: 50%;
+    min-height: 50%
 }
 
 /*CSS for texts*/
@@ -134,7 +134,7 @@ CSS Portafolio
     text-decoration: none;
     
 }
-.col a:hover{
+.a:hover{
     color: #f56d21;
 }
 .row{
@@ -153,18 +153,36 @@ CSS Contact Section
 */
 .contact{
     text-align: center;
-    background-color: #111383;
+    background-color: #467191;
     height: 100%;
     width: 100%;
     border: 1px;
-    padding: 10px;
+    padding: 30px;
 }
-.contact h1{
+.contact h2{
     color: white;
     size: 16;
     text-align: center;
     text-transform: uppercase;
 }
-.contact h2{
-    
+.contact h1{
+    color: #fdc92b;
+    text-align: center;
+    padding: 20px; 
+}
+.logo{
+    width: 100px;
+    height:100px;
+}
+.social{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+     
+}
+.social li{
+    display: inline-block;
+}
+.social{
+    padding: 10px;
 }
