@@ -7,19 +7,33 @@
     <title>Mi Portafolio</title>
     <link rel= "stylesheet" type= "text/css" href= "main.css">
     <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
 </head>
 <body>
-        <!---Hero Section----->
-        <div class= "hero-image">
-                <div class= "hero-text">
-                    <h1 class= "hero-title"> Bienvenido a mi portafolio digital</h1>
-                </div>
-                
+     <!---Hero Section----->
+     <div class= "hero-image">
+            <div class= "hero-text">
+                <h1 class= "hero-title"> Bienvenido a mi portafolio digital</h1>
             </div>
+            
+        </div>
   <div class="container">
+      <!--Navigation-->
+    <div class="navigation-menu">
+            <ul class="menu">
+                <li><a href="#sec1">Proyectos</a></li>
+                <li><a href="#sec2">Sobre Mí</a></li>
+                <li><a href="#sec3">Habilidades</a></li>
+                <li><a href="#sec4">Contacto</a></li>
+                
+                
+            </ul>
+        </div>
+           
     
         <!--Portafolio-->
         <div class="row">
+                <a name="sec1"></a>
                 <h1 class="hero-title">Mis proyectos</h1>
                 <div class="col">
                    
@@ -58,31 +72,42 @@
             </div>
         <!--About Us Section-->
         <div class= "container-about">
-                <div class= "box-1-about">
-                    <h1 class= "hero-title"> About Me</h1>
-                    <p class= "paragraph">
-                        Hola! me llamo Amanda Lucia González González, actualmente soy estudiante de la 
-                        carrera Ingeniería en Sistemas y me encuentro en mi séptimo trimestre.
-                        Soy proactiva y me gusta estar en constante aprendizaje, 
-                        amo la lectura, es mi pasión, sobre todo los libros de fanstasía, también disfruto
-                        la cocina en especial la respostería y ver youtube.
-                        Me motiva mi familia y la satisación de ver como mis objetivos se cumplen
-                        
-                    </p>
-                    <p class= "paragraph">Soy una persona que le gusta luchar por sus sueños, mi objetivo es poder aprender más 
-                            sobre el desarrollo web y poder trabajar en una empresa en el área del front-end de aplicaciones
-                            web.
-    
-                    </p>
-                </div>
-                <div class= "fill-image">
-                        <img src="https://ae01.alicdn.com/kf/HTB1.MkeSFXXXXcnaXXXq6xXFXXXl/FIGHT-LIKE-A-GIRL-Graphic-T-Shirt-Unisex-High-Quality-Tee-Cotton-Tumblr-Fashion-Tops-Funny.jpg"  class= "profile-image" alt= "image">   
-                </div>
+            <div class="box-1">
+                    <a name="sec2">
+                            <h1 class= "hero-title"> Sobre Mí</h1>
+                            <p class= "paragraph">
+                                Hola! me llamo Amanda Lucia González González, actualmente soy estudiante de la 
+                                carrera Ingeniería en Sistemas y me encuentro en mi séptimo trimestre.
+                                Soy proactiva y me gusta estar en constante aprendizaje, 
+                                amo la lectura, es mi pasión, sobre todo los libros de fanstasía, también disfruto
+                                la cocina en especial la respostería y ver youtube.
+                                Me motiva mi familia y la satisación de ver como mis objetivos se cumplen
+                                
+                            </p>
+                            <p class= "paragraph">Soy una persona que le gusta luchar por sus sueños, mi objetivo es poder aprender más 
+                                    sobre el desarrollo web y poder trabajar en una empresa en el área del front-end de aplicaciones
+                                    web.
+            
+                            </p>
+
             </div>
-        
+            <div class="box-2">
+                    <img src="photo.jpg"  class= "profile-image" alt= "image">     
+
+            </div>
+        </div>     
+               
+    <!--Habilidadess Section-->        
+    <div class="container-chart">
+            <a name="sec3">
+            <h1 class="hero-title">Mis Habilidades</h1>
+            <div class= "chart" id= "myChart"></div>
+            
+    </div>
             
     <!--Contact section-->
         <div class="contact">
+                <a name="sec4">
             <h1 class="hero-title">Contáctame</h1>
             <h2>Correo Electrónico</h2>
             <a class= "paragraph">amanda.gonzalez@correo.unimet.edu.ve</a>
@@ -95,6 +120,11 @@
                 <li><a href="https://twitter.com" target="_blank"><img class= "logo" src="tt.png" ></a></li>
             </ul>
         </div>
+
+        <!--Footer-->
+        <div class="footer">
+            <p>Creado por Amanda González</p>
+        </div>
     
     
     
@@ -103,5 +133,5 @@
     
 
 
-<script src=" https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>
