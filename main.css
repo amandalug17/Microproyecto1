@@ -14,7 +14,7 @@ body, html{
 CSS de Hero
 */
 .hero-title{
-    font-size: 85px;
+    font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
  
@@ -29,9 +29,7 @@ CSS de Hero
     color: white;
 }
 
-.text-style{
 
-}
 
 .hero-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
@@ -98,17 +96,16 @@ CSS for images
 }
 
 /*CSS for texts*/
-.title{
-    text-align: center;
-    color: white;
-    font:  verdana, arial;
-
-}
 .paragraph{
     text-align: justify;
     color: white;
     font:  verdana, arial;
 
+}
+.box-1-about h1{
+    color: #fdc92b;
+    text-align: center;
+    padding: 20px;
 }
 
 /*
@@ -143,5 +140,31 @@ CSS Portafolio
 .row{
     text-align: center;
     background-color: #2b2a2f;
+    
+}
+.row h1{
+    color: #fdc92b;
+    text-align: center;
+    padding: 20px;
+}
+
+/*
+CSS Contact Section
+*/
+.contact{
+    text-align: center;
+    background-color: #111383;
+    height: 100%;
+    width: 100%;
+    border: 1px;
+    padding: 10px;
+}
+.contact h1{
+    color: white;
+    size: 16;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact h2{
     
 }
