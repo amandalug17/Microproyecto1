@@ -1,12 +1,14 @@
 body, html{
     height: 100%;
     margin: 0;
-<<<<<<< HEAD
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
-=======
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
->>>>>>> about-us
+    background-color: #222627;
+}
+.container{
+    width: 100%;
+    background-color: #222627;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    margin:auto;
 }
 /*
 CSS de Hero
@@ -50,7 +52,7 @@ CSS Container Flex
     justify-content: space-around;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: #3e4f6b;
 }
 /*
 CSS Containers
@@ -78,7 +80,7 @@ CSS Divided section by 2 colums
     padding: 5px;
     margin: 5px;
     order:1;
-    background-color: gray;
+    background-color: #ee5430;
 }
 /*
 CSS for images
@@ -107,4 +109,38 @@ CSS for images
     color: white;
     font:  verdana, arial;
 
+}
+
+/*
+CSS Portafolio
+*/
+.col{
+    width: 265px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 20px;
+    background-color: #2b2a2f;
+}
+.col h2{
+    color: white;
+    size: 16;
+    text-align: center;
+    text-transform: uppercase;
+}
+.col p{
+    color: white;
+    text-align: justify;
+}
+.col a{
+    color: white;
+    text-decoration: none;
+    
+}
+.col a:hover{
+    color: #f56d21;
+}
+.row{
+    text-align: center;
+    background-color: dimgray;
 }

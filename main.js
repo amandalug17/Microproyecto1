@@ -1,4 +1,4 @@
-
+/*Función de mi pie chart animado*/
 window.onload = function() {
 
     var chart = new CanvasJS.Chart("chartContainer", {
