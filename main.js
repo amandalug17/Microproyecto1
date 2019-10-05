@@ -1,3 +1,6 @@
+/**
+ * Funcion del grafico de pie
+ */
 window.onload = function() {
 
     var chart = new CanvasJS.Chart("myChart", {
@@ -20,4 +23,5 @@ window.onload = function() {
     });
     chart.render();
     
-    }
+
+}
